@@ -1,0 +1,16 @@
+2026-02-08 15:10:54.361763 | QUESTION | what is python? | [QUESTION_HANDLER] You asked: what is python?
+2026-02-08 15:13:05.597251 | UNKNOWN | rub backup | [UNKNOWN_HANDLER] Could not classify: rub backup
+2026-02-08 15:13:42.472298 | COMMAND | run backup | [COMMAND_HANDLER] Command detected: run backup
+2026-02-09 22:12:14.999621 | QUESTION | run backup? | [QUESTION_HANDLER] You asked: run backup?
+2026-02-09 22:15:55.548527 | COMMAND | RUN cleanup | [COMMAND_HANDLER] Command detected: RUN cleanup
+2026-02-09 22:17:38.715998 | QUESTION | ????? | [QUESTION_HANDLER] You asked: ?????
+2026-02-09 22:18:11.456577 | COMMAND | run | [COMMAND_HANDLER] Command detected: run
+2026-02-09 23:07:12.928403 | COMMAND | run backup? | [COMMAND_HANDLER] Command detected: run backup?
+2026-02-09 23:08:04.764979 | UNKNOWN | ????? | [UNKNOWN_HANDLER] Could not classify: ?????
+2026-02-09 23:08:43.176239 | QUESTION | What is AI? | [QUESTION_HANDLER] You asked: What is AI?
+2026-02-10 07:15:17.136127 | status=OK | category=QUESTION | len=11 | text=WHAT is AI? | result=[QUESTION_HANDLER] You asked: WHAT is AI?
+2026-02-10 07:15:46.621659 | status=OK | category=COMMAND | len=11 | text=run cleanup | result=[COMMAND_HANDLER] Command detected: run cleanup
+2026-02-10 07:15:56.364505 | status=OK | category=UNKNOWN | len=6 | text=?????? | result=[UNKNOWN_HANDLER] Could not classify: ??????
+2026-02-10 10:46:20.521395 | status=NO_LETTERS | category=BLOCKED | len=10 | text=!!!!!!!!!! | result=
+2026-02-10 10:46:53.986596 | status=OK | category=UNKNOWN | len=16 | text=drop table users | result=[UNKNOWN_HANDLER] Could not classify: drop table users
+2026-02-10 10:51:02.890004 | status=BANNED_PATTERN | category=BLOCKED | len=16 | text=drop table users | result=
